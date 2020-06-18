@@ -1,0 +1,12 @@
+{
+  "name": "js-fyjldz",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@grapecity/wijmo": "^5.20201.680",
+    "@grapecity/wijmo.grid": "^5.20201.680",
+    "@grapecity/wijmo.grid.filter": "^5.20201.680",
+    "@grapecity/wijmo.input": "^5.20201.680",
+    "@grapecity/wijmo.styles": "^5.20201.680"
+  }
+}
