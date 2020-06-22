@@ -15,6 +15,7 @@ const grid = new wjcGrid.FlexGrid("#grid", {
 
 var filter = new wjcGridFilter.FlexGridFilter(grid);
 filter.getColumnFilter('country').valueFilter.uniqueValues = ['UK', 'US', 'India', 'Italy', 'Greece', 'Japan'];
+filter.getColumnFilter('id').valueFilter.uniqueValues = ['1', '2', '3', '4'];
 
 filter.filterApplied.addHandler((s, e) => {
   // api call
