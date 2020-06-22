@@ -7,6 +7,8 @@ import * as wjcInput from "@grapecity/wijmo.input";
 import * as wjcGrid from "@grapecity/wijmo.grid";
 import * as wjcGridFilter from "@grapecity/wijmo.grid.filter";
 
+var countries = "US,Germany,UK,Japan,Italy,Greece".split(",");
+
 const grid = new wjcGrid.FlexGrid("#grid", {
   itemsSource: getData(10),
 });
